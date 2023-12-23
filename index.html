@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Maker</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" >
+</head>
+<body>
+
+    <div class="content">
+
+        <div class="mainUI">
+            <div id="uiTitle">
+                <h1>The Ultimate Team Maker</h1>
+            </div>
+            <div class="interface">
+                
+                <form id="TeamMaker" action="" >
+                    <div class="operation">
+                        <div class="peopleCount">
+                            <label for="numPeople">How Many People Are Playing?</label><br>
+                            <input type="text" id="numPeople" name="numPeople" required>
+                            <input id="countSubmit" type="button" value="Generate Name Boxes">
+                            <label for="numPeople">How Many Teams are you making?</label><br>
+                            <input type="text" id="numTeams" name="numPeople" required>
+                        </div>
+                        <div class="AddParticipants">
+                            <label for="members">Participants:</label>
+                            <div class="TeamMembers">
+                                <input type="text" id="members" name="members" required>
+                                <input type="text" id="members" name="members" required>
+                            </div>
+                        </div>                        
+                    </div>
+                    <br>
+                    <button type="submit" value="submit">Generate Teams!</button>
+                </form>
+                <div class="test">
+                    <button onClick="tester()">Test mE!</button>
+                </div>
+                <div class="TeamResult">
+                    <!--
+                    <div class="teamGrid"> 
+                        <h1>Team 1</h1>
+                        <h3>Name 1</h3>
+                        <h3>Name 2</h3>
+                        <h3>Name 3</h3>
+                    </div> 
+                    -->
+                </div>
+            </div> 
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+    
+    
+</body>
+</html>

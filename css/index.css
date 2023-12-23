@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body {
+    background-image: url(../img/bkgTeam.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    height: 100%;
+    margin: 0;
+    
+    top: 50px;
+}
+
+.mainUI {
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    width: 70%;
+    background-color: lightblue;
+    border-radius: 25px;
+    text-wrap: wrap;
+    background-image: url(../img/bkgTeam1080.svg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.TeamResult h1 {
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 18px 18px 0 0;
+    margin: 0 auto;
+}
+
+#uiTitle {
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 10px;
+    font-size: large;
+}
+    #uiTitle h1 {
+        -webkit-text-stroke-width: 2px ;
+        -webkit-text-stroke: black;
+        text-shadow: 0px 1px 5px white;
+
+        color: #0066ff;
+    }
+
+
+
+
+
+
+.interface {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+/* ---[END SHOW TEAMS]--- */
+
+#TeamMaker {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+    #TeamMaker {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #TeamMaker button {
+        background-color: #4FACF7;
+        color: white;
+        font-weight: bold;
+        width: 200px;
+        margin: 0 auto;
+        border: 3px solid black;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    #countSubmit {
+        background-color: beige !important;
+        margin-top: 10px !important;
+    }
+#TeamMaker input {
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 10px 20px 10px 20px;
+}
+#TeamMaker input:focus-visible {
+    background-color: lightblue;
+}
+#countSubmit {
+    padding: 5px !important;
+}
+.peopleCount label, .AddParticipants label {
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+.operation {
+    margin-bottom: 30px;
+}
+.peopleCount, .AddParticipants {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.AddParticipants {
+    padding-top: 30px;
+    gap: 10px;
+}
+.TeamMembers {
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 10px;
+}
+    .TeamMembers input {
+        margin: 5px !important;
+    }
+
+
+/*--- SHOW TEAMS HERE --- */
+
+.TeamResult {
+    filter: opacity(0);
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.show {
+    filter: opacity(1);
+    transition: ease-in .2s;
+
+}
+.teamGrid {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: -5px 2px;
+    width: 200px;
+    position: relative;
+}
+    .teamGrid h1 {
+        color: white;
+        border-bottom: 2px solid black;
+    }
+    .teamGrid h3 {
+        text-align: center;
+    }
+
+
+
+
+.test {
+    display:none;
+}
